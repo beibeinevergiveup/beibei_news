@@ -1,0 +1,51 @@
+<include file="Index/header"/>
+
+
+    <div class="container" style="background: white">
+        <div class="row">
+            <div class="col-sm-2 col-md-2"></div>
+            <form id="singcms-form" class="col-sm-4 col-md-4" style="line-height: 200%;margin-top:70px;">
+                <div class="form-group ">
+                    <label for="username">用户名</label>
+                    <input type="text" class="form-control" id="username" placeholder="请输入用户名" name="username">
+                </div>
+                <div class="form-group">
+                    <label for="password">密码</label>
+                    <input type="password" class="form-control" id="password" placeholder="请输入密码" name="password">
+                </div>
+                <div class="form-group">
+                    <label for="verify">验证码</label>
+                    <div class="form-inline">
+                    <input style="width: 35%" type="text" class="form-control" id="verify" placeholder="请输入验证码" name="verify">
+                    <img id="verify_img" width="100px" height="50px" src="{:U('User/verify')}">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button type="button" class="btn btn-default" onclick="login.check()">登录</button>
+                </div>
+            </form>
+            <div class="col-sm-3 col-md-3"></div>
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                <div class="right-title">
+                    <h3>文章排行</h3>
+                    <span>TOP ARTICLES</span>
+                </div>
+
+                <div class="right-content">
+                    <ul>
+                        <volist name="result['rankNews']" id="vo" key="k">
+                            <li class="num{$k} curr">
+                                <a target="_blank" href="/index.php?c=detail&id={$vo.news_id}">{$vo.small_title}</a>
+                                <if condition="$k eq 1">
+                                    <div class="intro">
+                                        {$vo.description}
+                                    </div>
+                                </if>
+                            </li>
+                        </volist>
+                    </ul>
+                </div>
+    </div>
+    </div>
+</body>
+</html>

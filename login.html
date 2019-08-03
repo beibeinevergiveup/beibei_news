@@ -1,0 +1,31 @@
+<include file="Index/header"/>
+
+
+    <div class="container">
+        <div class="row">
+            <form id="singcms-form" class="col-sm-4 col-md-4" style="line-height: 200%;margin-top:70px;">
+                <div class="form-group ">
+                    <label for="username">用户名</label>
+                    <input type="text" class="form-control" id="username" placeholder="请输入用户名" name="username">
+                </div>
+                <div class="form-group">
+                    <label for="password">密码</label>
+                    <input type="password" class="form-control" id="password" placeholder="请输入密码" name="password">
+                </div>
+                <div class="form-group">
+                    <label for="verify">验证码</label>
+                    <div class="form-inline">
+                    <input style="width: 35%" type="text" class="form-control" id="verify" placeholder="请输入验证码" name="verify">
+                    <img id="verify_img" width="100px" height="50px" src="{:U('User/verify')}">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button type="button" class="btn btn-default" onclick="login.check()">登录</button>
+                </div>
+            </form>
+            <div class="col-sm-5 col-md-5"></div>
+            <include file="Index/right" />
+        </div>
+    </div>
+</body>
+</html>

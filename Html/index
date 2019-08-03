@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>贝贝新闻</title>
+  <meta name="keywords" content="贝贝,资讯,新闻" />
+  <meta name="description" content="搜寻天下有趣的新闻，希望众君喜欢。" />
+    <link rel="icon" href="/Public/images/headlogo.ico" type="image/x-icon"/>
+  <link rel="stylesheet" href="/Public/css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="/Public/css/home/main.css" type="text/css" />
+    <script src="/Public/js/jquery.js"></script>
+    <script src="/Public/js/bootstrap.min.js"></script>
+    <script src="/Public/js/dialog/layer.js"></script>
+    <script src="/Public/js/dialog.js"></script>
+    <script src="/Public/js/bootstrap.min.js"></script>
+    <script src="/Public/js/admin/common.js"></script>
+    <script src="/Public/js/admin/user.js"></script>
+    <script>
+        $(function(){
+
+            $('#verify_img').click(function(){
+
+                $('#verify_img').attr('src',"/index.php/Home/Index/verify/random/"+Math.random());//点击事件改变图片地址
+
+            });
+
+        });
+    </script>
+    <style>
+        body{
+            background:url("/Public/images/timg.jpg") repeat-y;
+            background-size: 100%;
+            width:100%;
+            height:100%
+        }
+    </style>
+</head>
+<body>
+<header id="header">
+  <div class="navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="/index.php">
+          <img src="/Public/images/logn.jpg" alt="">
+        </a>
+      </div>
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="/index.php" class="curr">首页</a></li>
+        <li><a href="/index.php?c=cat&id=21" >影视</a></li><li><a href="/index.php?c=cat&id=20" >国家</a></li><li><a href="/index.php?c=cat&id=15" >明星</a></li><li><a href="/index.php?c=cat&id=11" >教育</a></li><li><a href="/index.php?c=cat&id=10" >体育</a></li>      </ul>
+        <form>
+        <div class="col-lg-3 col-md-3">
+            <div class="input-group" style="margin-top: 18px">
+                <!--<input type="hidden" name="c" value="index"/>-->
+                <!--<input type="hidden" name="a" value="search"/>-->
+                <input type="text" class="form-control" placeholder="搜索相关新闻" value="" name="title" id="searchvalue"/>
+                <span class="input-group-btn">
+            <button class="btn btn-default" type="button" id="search"><span class="glyphicon glyphicon-search"></span></button>
+           </span>
+            </div>
+        </div>
+        </form>
+        <ul class="nav navbar-right navbar-nav ">
+                            <li> <a href="#">管理员： beibei</a></li>
+                <li> <a href="#" onclick="adminout.check()">注销</a></li>
+                     </ul>
+    </div>
+  </div>
+    <script>
+        $('#search').click(function(){
+            var val = $('#searchvalue').val();
+            //console.log(val);
+            if($.trim(val)==''){
+
+                return 0;
+
+            }else{
+
+                window.location.href="/index.php?a=search&title="+val;
+            }
+
+        });
+
+
+
+
+    </script>
+</header>
+
+  <div class="container" style="background: white">
+    <div class="row">
+      <div class="col-md-9 col-lg-9">
+        <div class="banner">
+
+          <div style="width: 670px;height: 360px" class="banner-left">
+          <!--<div class="banner-left">-->
+            <!--<div class="banner-info"><span>阅读数</span><i class="news_count node-29" news-id="29" id="node-29"></i></div>-->
+            <!--<a target="_blank" href=" /index.php?c=detail&id=29"><img width="670" height="360" src="/upload/2019/06/03/5cf4ca53c5e56.jpg" alt=""></a>-->
+          <!--</div>-->
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li><li data-target="#carousel-example-generic" data-slide-to="2"></li><li data-target="#carousel-example-generic" data-slide-to="3"></li>            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div style="width: 670px;height: 360px" class="item active">
+                <div class="banner-info"><span>阅读数</span><i class="news_count node-29" news-id="29" id="node-29"></i></div>
+                <a href="/index.php?c=detail&id=29"><img style="width: 670px;height: 360px" src="/upload/2019/06/03/5cf4ca53c5e56.jpg" alt="..."></a>
+                <div class="carousel-caption">
+                  <h3>揭秘丨《哥斯拉2》隐藏有15个怪兽，下集要跟金刚大战</h3>
+                </div>
+              </div>              <div style="width: 670px;height: 360px" class="item">
+                  <div class="banner-info"><span>阅读数</span><i class="news_count node-26" news-id="26" id="node-26"></i></div>
+                  <a href="/index.php?c=detail&id=26"><img style="width: 670px;height: 360px" src="/upload/2019/05/30/5cefbd72b63e1.jpg" alt="..."></a>
+                  <div class="carousel-caption">
+                    <h3>商务部：美方的贸易霸凌做法买单的是美国消费者和企业</h3>
+                  </div>
+                </div><div style="width: 670px;height: 360px" class="item">
+                  <div class="banner-info"><span>阅读数</span><i class="news_count node-22" news-id="22" id="node-22"></i></div>
+                  <a href="/index.php?c=detail&id=22"><img style="width: 670px;height: 360px" src="/upload/2019/05/12/5cd8284029ab3.jpg" alt="..."></a>
+                  <div class="carousel-caption">
+                    <h3>16年总决赛骑士夺冠，创造了多少NBA记录，你知道吗？</h3>
+                  </div>
+                </div><div style="width: 670px;height: 360px" class="item">
+                  <div class="banner-info"><span>阅读数</span><i class="news_count node-20" news-id="20" id="node-20"></i></div>
+                  <a href="/index.php?c=detail&id=20"><img style="width: 670px;height: 360px" src="/upload/2019/05/12/5cd7bf6a3f7a4.jpg" alt="..."></a>
+                  <div class="carousel-caption">
+                    <h3>2020年U19亚洲杯预选赛分组：国青遭遇韩国</h3>
+                  </div>
+                </div>            </div>
+          </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+          <div class="banner-right">
+            <ul>
+              <li>
+                <a target="_blank" href="/index.php?c=detail&id=20"><img width="150" height="113" src="/upload/2019/05/12/5cd7bf6a3f7a4.jpg" alt="2020年U19亚洲杯预选赛分组：国青遭遇韩国"></a>
+              </li><li>
+                <a target="_blank" href="/index.php?c=detail&id=23"><img width="150" height="113" src="/upload/2019/05/12/5cd8297b08d22.jpg" alt="蔡徐坤打篮球被电竞圈认可？LPL众选手改名回应：鸡你太美"></a>
+              </li><li>
+                <a target="_blank" href="/index.php?c=detail&id=21"><img width="150" height="113" src="/upload/2019/05/12/5cd7c13a791a9.jpg" alt="《复联4》超越《泰坦尼克号》名列全球影史票房第二"></a>
+              </li>
+            </ul>
+          </div>
+      </div>
+        <div class="news-list">
+
+            <div class="right-title">
+          <h2 style="color: #d43f3a">今日头条</h2>
+          <span>HOT ARTICLES</span>
+        </div>
+          <dl>
+              <dt><a target="_blank" href="/index.php?c=detail&id=23"><span style="color: crimson"><h2>震惊！！！！蔡徐坤打球真的牛逼</h2></span></a></dt>
+              <dd class="news-img">
+                <a target="_blank" href="/index.php?c=detail&id=23"><img width="200" height="200" src="/upload/2019/05/15/5cdbc75eb89cc.jpg" alt="震惊！！！！蔡徐坤打球真的牛逼"></a>
+              </dd>
+              <div>
+                </br>              </div>
+              <dd class="news-info">
+                 <span>2019-05-15 15:46:53</span> 阅读(<i news-id="23" class="news_count node-23"></i>)
+              </dd>
+            </dl>
+          <div class="right-title">
+            <h3>主要新闻</h3>
+            <span>MAIN ARTICLES</span>
+          </div>
+          <dl>
+            <dt><a target="_blank" href="/index.php?c=detail&id=30"><span style="color: #5674ed">萌即是正义？《大侦探皮卡丘》到底是不是一部好作品</span></a></dt>
+            <dd class="news-img">
+              <a target="_blank" href="/index.php?c=detail&id=30"><img width="200" height="120" src="/upload/2019/06/03/5cf4cb979c42d.jpg" alt="萌即是正义？《大侦探皮卡丘》到底是不是一部好作品"></a>
+            </dd>
+            <dd class="news-intro">
+              此次《大侦探皮卡丘》至少在技术上过了关，满足甚至超出了人们心中对皮卡丘形象的期待，但也有很多粉丝，一边心甘情愿地遭受着皮卡丘的可爱暴击，一边批评着略显俗套的剧情。  试想一下，没有了皮卡丘的加成，这部作品的评价又会如何呢。归根结底，不论新老，观众想看到的，还是一个充满诚意的好故事。            </dd>
+            <dd class="news-info">
+              大侦探皮卡丘，皮卡丘 <span>2019-06-03 15:27:27</span> 阅读(<i news-id="30" class="news_count node-30">49</i>)
+            </dd>
+          </dl><dl>
+            <dt><a target="_blank" href="/index.php?c=detail&id=29"><span style="color: #ed568b">揭秘丨《哥斯拉2》隐藏有15个怪兽，下集要跟金刚大战</span></a></dt>
+            <dd class="news-img">
+              <a target="_blank" href="/index.php?c=detail&id=29"><img width="200" height="120" src="/upload/2019/06/03/5cf4ca53c5e56.jpg" alt="揭秘丨《哥斯拉2》隐藏有15个怪兽，下集要跟金刚大战"></a>
+            </dd>
+            <dd class="news-intro">
+              5月31日，由迈克尔·道赫蒂执导的《哥斯拉2：怪兽之王》（后简称《哥斯拉2》）上映，票房分析师罗天文认为它的出现将再次带动影市怪兽片热潮， “从中国市场来说，怪兽+灾难类型的影片一向有不错的票房表现，例如《狂暴巨兽》国内票房10亿元，受众应该会很多。”            </dd>
+            <dd class="news-info">
+              哥斯拉 <span>2019-06-03 15:22:43</span> 阅读(<i news-id="29" class="news_count node-29">12</i>)
+            </dd>
+          </dl><dl>
+            <dt><a target="_blank" href="/index.php?c=detail&id=26"><span style="color: ">商务部：美方的贸易霸凌做法买单的是美国消费者和企业</span></a></dt>
+            <dd class="news-img">
+              <a target="_blank" href="/index.php?c=detail&id=26"><img width="200" height="120" src="/upload/2019/05/30/5cefbd72b63e1.jpg" alt="商务部：美方的贸易霸凌做法买单的是美国消费者和企业"></a>
+            </dd>
+            <dd class="news-intro">
+              商务部：美方的贸易霸凌做法买单的是美国消费者和企业            </dd>
+            <dd class="news-info">
+              美国,商务部,蔡徐坤,蔡徐坤 <span>2019-05-30 19:26:16</span> 阅读(<i news-id="26" class="news_count node-26">86</i>)
+            </dd>
+          </dl><dl>
+            <dt><a target="_blank" href="/index.php?c=detail&id=24"><span style="color: #5674ed">NBA总决赛赛程：猛龙主场优势 系列赛多伦多开打</span></a></dt>
+            <dd class="news-img">
+              <a target="_blank" href="/index.php?c=detail&id=24"><img width="200" height="120" src="/upload/2019/05/30/5ceeb01dd28ce.jpg" alt="NBA总决赛赛程：猛龙主场优势 系列赛多伦多开打"></a>
+            </dd>
+            <dd class="news-intro">
+              卡哇伊真牛逼，最佳防守球员。            </dd>
+            <dd class="news-info">
+              nba,莱恩纳德 <span>2019-05-30 00:09:32</span> 阅读(<i news-id="24" class="news_count node-24">38</i>)
+            </dd>
+          </dl><dl>
+            <dt><a target="_blank" href="/index.php?c=detail&id=23"><span style="color: #ed568b">蔡徐坤打篮球被电竞圈认可？LPL众选手改名回应：鸡你太美</span></a></dt>
+            <dd class="news-img">
+              <a target="_blank" href="/index.php?c=detail&id=23"><img width="200" height="120" src="/upload/2019/05/12/5cd8297b08d22.jpg" alt="蔡徐坤打篮球被电竞圈认可？LPL众选手改名回应：鸡你太美"></a>
+            </dd>
+            <dd class="news-intro">
+              蔡徐坤牛逼            </dd>
+            <dd class="news-info">
+              你好,蔡徐坤,贸易 <span>2019-05-12 22:12:40</span> 阅读(<i news-id="23" class="news_count node-23">222</i>)
+            </dd>
+          </dl><dl>
+            <dt><a target="_blank" href="/index.php?c=detail&id=22"><span style="color: #ed568b">16年总决赛骑士夺冠，创造了多少NBA记录，你知道吗？</span></a></dt>
+            <dd class="news-img">
+              <a target="_blank" href="/index.php?c=detail&id=22"><img width="200" height="120" src="/upload/2019/05/12/5cd8284029ab3.jpg" alt="16年总决赛骑士夺冠，创造了多少NBA记录，你知道吗？"></a>
+            </dd>
+            <dd class="news-intro">
+              骑士夺冠纪录            </dd>
+            <dd class="news-info">
+              nba,詹姆斯 <span>2019-05-12 22:07:50</span> 阅读(<i news-id="22" class="news_count node-22">58</i>)
+            </dd>
+          </dl><dl>
+            <dt><a target="_blank" href="/index.php?c=detail&id=21"><span style="color: #5674ed">《复联4》超越《泰坦尼克号》名列全球影史票房第二</span></a></dt>
+            <dd class="news-img">
+              <a target="_blank" href="/index.php?c=detail&id=21"><img width="200" height="120" src="/upload/2019/05/12/5cd7c13a791a9.jpg" alt="《复联4》超越《泰坦尼克号》名列全球影史票房第二"></a>
+            </dd>
+            <dd class="news-intro">
+              影视资讯            </dd>
+            <dd class="news-info">
+              复仇者联盟 <span>2019-05-12 14:47:14</span> 阅读(<i news-id="21" class="news_count node-21">25</i>)
+            </dd>
+          </dl><dl>
+            <dt><a target="_blank" href="/index.php?c=detail&id=20"><span style="color: #ed568b">2020年U19亚洲杯预选赛分组：国青遭遇韩国</span></a></dt>
+            <dd class="news-img">
+              <a target="_blank" href="/index.php?c=detail&id=20"><img width="200" height="120" src="/upload/2019/05/12/5cd7bf6a3f7a4.jpg" alt="2020年U19亚洲杯预选赛分组：国青遭遇韩国"></a>
+            </dd>
+            <dd class="news-intro">
+              体育足球            </dd>
+            <dd class="news-info">
+              中国,足球 <span>2019-05-12 14:32:59</span> 阅读(<i news-id="20" class="news_count node-20">47</i>)
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <!--网站右侧信息-->
+      <!-- 右侧排行-->
+<div class="col-sm-3 col-md-3 col-lg-3">
+  <div class="right-title">
+    <h3>文章排行</h3>
+    <span>TOP ARTICLES</span>
+  </div>
+
+  <div class="right-content">
+    <ul>
+      <li class="num1 curr">
+        <a target="_blank" href="/index.php?c=detail&id=23">蔡徐坤被认可？?</a>
+        <div class="intro">
+          蔡徐坤牛逼        </div>      </li><li class="num2 curr">
+        <a target="_blank" href="/index.php?c=detail&id=26">美方的贸易霸凌</a>
+              </li><li class="num3 curr">
+        <a target="_blank" href="/index.php?c=detail&id=22">16年总决赛骑士夺冠</a>
+              </li><li class="num4 curr">
+        <a target="_blank" href="/index.php?c=detail&id=30">《大侦探皮卡丘》</a>
+              </li><li class="num5 curr">
+        <a target="_blank" href="/index.php?c=detail&id=20">国青遭遇韩国</a>
+              </li><li class="num6 curr">
+        <a target="_blank" href="/index.php?c=detail&id=24">猛龙主场优势</a>
+              </li><li class="num7 curr">
+        <a target="_blank" href="/index.php?c=detail&id=21">复仇者联盟4</a>
+              </li><li class="num8 curr">
+        <a target="_blank" href="/index.php?c=detail&id=29">哥斯拉2》隐藏有15个怪兽</a>
+              </li>    </ul>
+  </div>
+  <div class="right-title">
+    <h4>广告推荐</h4>
+    <span>advantage</span>
+  </div>
+  <div class="thumbnail">
+      <a target="_blank" href="http://www.itheima.com/"> <img src="/upload/2019/05/15/5cdbc8b181418.jpg" alt="成为IT高新人才，成就美满人生">
+      <div class="caption">
+        <h3 style="font-size: 20px">成为IT高新人才，成就美满人生</h3>
+      </div>
+      </a>
+    </div><div class="thumbnail">
+      <a target="_blank" href="https://baijiahao.baidu.com/s?id=1620619414691527332&wfr=spider&for=pc"> <img src="/upload/2019/05/12/5cd7c13a791a9.jpg" alt="《复联4》超越《泰坦尼克号》名列全球影史票房第二">
+      <div class="caption">
+        <h3 style="font-size: 20px">《复联4》超越《泰坦尼克号》名列全球影史票房第二</h3>
+      </div>
+      </a>
+    </div>
+
+    </div>
+
+    </div>
+  </div>
+</section>
+</body>
+<script src="/Public/js/count.js"></script>
+</html>

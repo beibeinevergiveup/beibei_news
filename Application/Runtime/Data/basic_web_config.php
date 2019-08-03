@@ -1,0 +1,1 @@
+a:5:{s:5:"title";s:12:"贝贝新闻";s:8:"keywords";s:20:"贝贝,资讯,新闻";s:11:"description";s:51:"搜寻天下有趣的新闻，希望众君喜欢。";s:9:"dumpmysql";s:1:"1";s:10:"cacheindex";s:1:"1";}

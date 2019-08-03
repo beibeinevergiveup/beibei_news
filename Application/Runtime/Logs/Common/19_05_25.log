@@ -1,0 +1,12 @@
+[ 2019-05-25T23:12:13+08:00 ] ::1 /%7BU('User/verify')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+ERR: 无法加载模块:{U('User
+
+[ 2019-05-25T23:12:13+08:00 ] ::1 /%7BU('User/verify')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+ERR: 无法加载模块:{U('User
+

@@ -1,0 +1,29 @@
+<include file="Index/header" />
+<?php
+   $vo = $result['news'];
+  // $rel = $result['related'];
+  // print_r($rel);
+?>
+	<section>
+		<div class="container" style="background: white">
+			<div class="row">
+				<div class="col-md-9 col-lg-9">
+
+					<div class="news-detail">
+						<h1>{$vo.title}</h1>
+						{$vo.content}
+					</div>
+					
+				</div>
+
+				<include file="Index/right2" />
+				<!-- end right-->
+			</div>
+		</div>
+	</section>
+</body>
+<script src="/Public/js/jquery.js"></script>
+<script>
+	
+</script>
+</html>

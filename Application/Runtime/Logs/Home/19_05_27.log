@@ -1,0 +1,1397 @@
+[ 2019-05-27T00:00:03+08:00 ] ::1 /index.php/Home/User/verify/random/0.8462672001845494
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012201s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007917s ]
+
+[ 2019-05-27T00:00:09+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.0407s ]
+NOTIC: [8] Undefined index: validate C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 3 for show(), called in C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php on line 102 and defined C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 6 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 10 行.
+
+[ 2019-05-27T00:00:16+08:00 ] ::1 /index.php?c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [8] Undefined index: id C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\NewsModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0378s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\PositionContentModel.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0285s ]
+NOTIC: [8] Undefined index: title C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\PositionContentModel.class.php 第 16 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\BasicModel.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\BasicModel.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0296s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Runtime\Cache\Home\e97fd5eb29b5aee7640854917fdf6044.php 第 1 行.
+NOTIC: [8] Undefined variable: flag C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Runtime\Cache\Home\e97fd5eb29b5aee7640854917fdf6044.php 第 1 行.
+NOTIC: [8] Undefined index: User C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.143672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.143717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2019-05-27T00:00:16+08:00 ] ::1 /index.php?m=Home&c=User&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003915s ]
+
+[ 2019-05-27T00:05:45+08:00 ] ::1 /index.php/Home/User/verify/random/0.3361694527128647
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001651s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2019-05-27T00:05:45+08:00 ] ::1 /index.php/Home/User/verify/random/0.5676684189851563
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001489s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2019-05-27T00:05:46+08:00 ] ::1 /index.php/Home/User/verify/random/0.9676158019024304
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000688s ]
+
+[ 2019-05-27T00:05:51+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+ERR: 1146:Table 'imooc_singcms.cms_vali' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_vali`
+ERR: 1146:Table 'imooc_singcms.cms_vali' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_vali`
+
+[ 2019-05-27T00:05:52+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] Missing argument 3 for show(), called in C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php on line 94 and defined C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 6 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 10 行.
+
+[ 2019-05-27T00:05:56+08:00 ] ::1 /index.php/Home/User/verify/random/0.4955729604382113
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2019-05-27T00:06:01+08:00 ] ::1 /index.php/Home/User/verify/random/0.8722856543229075
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2019-05-27T00:06:02+08:00 ] ::1 /index.php/Home/User/verify/random/0.07448331024499133
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2019-05-27T00:06:07+08:00 ] ::1 /index.php/Home/User/verify/random/0.6109865382803616
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2019-05-27T00:06:12+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+ERR: 1146:Table 'imooc_singcms.cms_vali' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_vali`
+ERR: 1146:Table 'imooc_singcms.cms_vali' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_vali`
+
+[ 2019-05-27T00:06:13+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] Missing argument 3 for show(), called in C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php on line 94 and defined C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 6 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 10 行.
+
+[ 2019-05-27T00:06:14+08:00 ] ::1 /index.php?c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [8] Undefined index: id C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\NewsModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0244s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\PositionContentModel.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0361s ]
+NOTIC: [8] Undefined index: title C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\PositionContentModel.class.php 第 16 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\BasicModel.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\BasicModel.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: id C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Runtime\Cache\Home\e97fd5eb29b5aee7640854917fdf6044.php 第 1 行.
+NOTIC: [8] Undefined variable: flag C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Runtime\Cache\Home\e97fd5eb29b5aee7640854917fdf6044.php 第 1 行.
+NOTIC: [8] Undefined index: User C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2019-05-27T00:06:15+08:00 ] ::1 /index.php?m=Home&c=User&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003267s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2019-05-27T00:09:11+08:00 ] ::1 /index.php/Home/User/verify/random/0.6508455738662257
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2019-05-27T00:09:12+08:00 ] ::1 /index.php/Home/User/verify/random/0.7991139829962153
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2019-05-27T00:09:47+08:00 ] ::1 /index.php?c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [8] Undefined index: id C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\NewsModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0289s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\PositionContentModel.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0162s ]
+NOTIC: [8] Undefined index: title C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\PositionContentModel.class.php 第 16 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\BasicModel.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\BasicModel.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Runtime\Cache\Home\e97fd5eb29b5aee7640854917fdf6044.php 第 1 行.
+NOTIC: [8] Undefined variable: flag C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Runtime\Cache\Home\e97fd5eb29b5aee7640854917fdf6044.php 第 1 行.
+NOTIC: [8] Undefined index: User C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2019-05-27T00:09:47+08:00 ] ::1 /index.php?m=Home&c=User&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001587s ]
+
+[ 2019-05-27T00:10:00+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+ERR: 1146:Table 'imooc_singcms.cms_vali' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_vali`
+ERR: 1146:Table 'imooc_singcms.cms_vali' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_vali`
+
+[ 2019-05-27T00:11:29+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] Missing argument 3 for show(), called in C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php on line 94 and defined C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 6 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 10 行.
+
+[ 2019-05-27T00:11:30+08:00 ] ::1 /index.php/Home/User/verify/random/0.1771648143394169
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2019-05-27T00:11:39+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+ERR: 1146:Table 'imooc_singcms.cms_vali' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_vali`
+ERR: 1146:Table 'imooc_singcms.cms_vali' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_vali`
+
+[ 2019-05-27T00:11:41+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] Missing argument 3 for show(), called in C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php on line 94 and defined C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 6 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 10 行.
+
+[ 2019-05-27T00:15:07+08:00 ] ::1 /index.php/Home/User/verify/random/0.12199269638300203
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2019-05-27T00:15:11+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] Missing argument 3 for show(), called in C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php on line 94 and defined C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 6 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 10 行.
+
+[ 2019-05-27T00:15:14+08:00 ] ::1 /index.php/Home/User/verify/random/0.5176226008524897
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2019-05-27T00:15:18+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.0352s ]
+NOTIC: [8] Undefined index: validate C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] Missing argument 3 for show(), called in C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php on line 102 and defined C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 6 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 10 行.
+
+[ 2019-05-27T00:15:35+08:00 ] ::1 /index.php/Home/User/verify/random/0.4136234617028012
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2019-05-27T00:15:41+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002340s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.0236s ]
+NOTIC: [8] Undefined index: validate C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 3 for show(), called in C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php on line 102 and defined C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 6 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 10 行.
+
+[ 2019-05-27T00:18:31+08:00 ] ::1 /index.php/Home/User/verify/random/0.8094564438495878
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2019-05-27T00:18:36+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+ERR: 1146:Table 'imooc_singcms.cms_vali' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_vali`
+ERR: 1146:Table 'imooc_singcms.cms_vali' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_vali`
+
+[ 2019-05-27T00:18:41+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] Missing argument 3 for show(), called in C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php on line 94 and defined C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 6 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 10 行.
+
+[ 2019-05-27T00:23:53+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] Missing argument 3 for show(), called in C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php on line 94 and defined C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 6 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 10 行.
+
+[ 2019-05-27T00:23:54+08:00 ] ::1 /index.php?c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [8] Undefined index: id C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\NewsModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0282s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\PositionContentModel.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0168s ]
+NOTIC: [8] Undefined index: title C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\PositionContentModel.class.php 第 16 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\BasicModel.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\BasicModel.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Runtime\Cache\Home\e97fd5eb29b5aee7640854917fdf6044.php 第 1 行.
+NOTIC: [8] Undefined variable: flag C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Runtime\Cache\Home\e97fd5eb29b5aee7640854917fdf6044.php 第 1 行.
+NOTIC: [8] Undefined index: User C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2019-05-27T00:23:54+08:00 ] ::1 /index.php?m=Home&c=User&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2019-05-27T00:24:09+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+ERR: 1146:Table 'imooc_singcms.cms_user1' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_user1`
+ERR: 1146:Table 'imooc_singcms.cms_user1' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_user1`
+
+[ 2019-05-27T00:24:16+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] Missing argument 3 for show(), called in C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php on line 94 and defined C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 6 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 10 行.
+
+[ 2019-05-27T00:24:24+08:00 ] ::1 /index.php?c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [8] Undefined index: id C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\NewsModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0293s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\PositionContentModel.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0162s ]
+NOTIC: [8] Undefined index: title C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\PositionContentModel.class.php 第 16 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\BasicModel.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\BasicModel.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Runtime\Cache\Home\e97fd5eb29b5aee7640854917fdf6044.php 第 1 行.
+NOTIC: [8] Undefined variable: flag C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Runtime\Cache\Home\e97fd5eb29b5aee7640854917fdf6044.php 第 1 行.
+NOTIC: [8] Undefined index: User C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2019-05-27T00:24:24+08:00 ] ::1 /index.php?m=Home&c=User&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002265s ]
+
+[ 2019-05-27T00:25:20+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.0226s ]
+NOTIC: [8] Undefined index: validate C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] Missing argument 3 for show(), called in C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php on line 102 and defined C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 6 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 10 行.
+
+[ 2019-05-27T00:28:13+08:00 ] ::1 /index.php/Home/User/verify/random/0.26626066970539697
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2019-05-27T00:28:19+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.0274s ]
+NOTIC: [8] Undefined index: validate C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 3 for show(), called in C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php on line 102 and defined C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 6 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 10 行.
+
+[ 2019-05-27T00:32:10+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] Missing argument 3 for show(), called in C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php on line 94 and defined C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 6 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 10 行.
+
+[ 2019-05-27T00:32:13+08:00 ] ::1 /index.php/Home/User/verify/random/0.3684619233730103
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2019-05-27T00:32:15+08:00 ] ::1 /index.php/Home/User/verify/random/0.475767530612771
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000966s ]
+
+[ 2019-05-27T00:32:16+08:00 ] ::1 /index.php/Home/User/verify/random/0.49409621718968544
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001150s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001231s ]
+
+[ 2019-05-27T00:32:23+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+ERR: 1146:Table 'imooc_singcms.cms_user1' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_user1`
+ERR: 1146:Table 'imooc_singcms.cms_user1' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_user1`
+
+[ 2019-05-27T00:33:16+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] Missing argument 3 for show(), called in C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php on line 94 and defined C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 6 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 10 行.
+
+[ 2019-05-27T00:33:18+08:00 ] ::1 /index.php/Home/User/verify/random/0.6859167233561229
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2019-05-27T00:33:27+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+ERR: 1146:Table 'imooc_singcms.cms_user1' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_user1`
+ERR: 1146:Table 'imooc_singcms.cms_user1' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_user1`
+
+[ 2019-05-27T00:34:34+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] Missing argument 3 for show(), called in C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php on line 94 and defined C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 6 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 10 行.
+
+[ 2019-05-27T00:34:36+08:00 ] ::1 /index.php/Home/User/verify/random/0.7084298245254503
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2019-05-27T00:34:41+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.0281s ]
+NOTIC: [8] Undefined index: validate C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 3 for show(), called in C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php on line 102 and defined C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 6 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 10 行.
+
+[ 2019-05-27T00:34:53+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] Missing argument 3 for show(), called in C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php on line 94 and defined C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 6 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 10 行.
+
+[ 2019-05-27T00:34:55+08:00 ] ::1 /index.php/Home/User/verify/random/0.540994587890905
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2019-05-27T00:35:03+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [8] Undefined index: validate C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 3 for show(), called in C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php on line 102 and defined C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 6 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 10 行.
+
+[ 2019-05-27T00:47:04+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] Missing argument 3 for show(), called in C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php on line 94 and defined C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 6 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 10 行.
+
+[ 2019-05-27T00:47:08+08:00 ] ::1 /index.php/Home/User/verify/random/0.7927001365246622
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2019-05-27T00:47:17+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] Missing argument 3 for show(), called in C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php on line 94 and defined C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 6 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 10 行.
+
+[ 2019-05-27T00:47:20+08:00 ] ::1 /index.php/Home/User/verify/random/0.7796898379787116
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2019-05-27T00:47:27+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+ERR: 1146:Table 'imooc_singcms.cms_user1' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_user1`
+ERR: 1146:Table 'imooc_singcms.cms_user1' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_user1`
+
+[ 2019-05-27T00:47:48+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] Missing argument 3 for show(), called in C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php on line 94 and defined C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 6 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 10 行.
+
+[ 2019-05-27T00:47:50+08:00 ] ::1 /index.php/Home/User/verify/random/0.8510022415499146
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2019-05-27T00:47:51+08:00 ] ::1 /index.php/Home/User/verify/random/0.522121298551817
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2019-05-27T00:47:55+08:00 ] ::1 /index.php/Home/User/verify/random/0.4517447510650717
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001573s ]
+
+[ 2019-05-27T00:48:02+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [8] Undefined index: validate C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 3 for show(), called in C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php on line 102 and defined C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 6 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 10 行.
+
+[ 2019-05-27T00:57:53+08:00 ] ::1 /index.php/Home/User/verify/random/0.15368458379961725
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2019-05-27T00:58:02+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] Missing argument 3 for show(), called in C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php on line 94 and defined C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 6 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 10 行.
+
+[ 2019-05-27T00:58:05+08:00 ] ::1 /index.php/Home/User/verify/random/0.7575901650614956
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2019-05-27T00:58:06+08:00 ] ::1 /index.php/Home/User/verify/random/0.3641609180318681
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2019-05-27T00:58:13+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [8] Undefined index: validate C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto C:\phpStudy\PHPTutorial\WWW\tp3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 3 for show(), called in C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php on line 102 and defined C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 6 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 10 行.
+
+[ 2019-05-27T00:59:03+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001724s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\PositionContentModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0471s ]
+NOTIC: [8] Undefined index: title C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\PositionContentModel.class.php 第 16 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2 ORDER BY listorder desc ,id desc LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: title C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\PositionContentModel.class.php 第 16 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 3 ORDER BY listorder desc ,id desc LIMIT 3   [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\NewsModel.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0364s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 AND `thumb` <> '' ORDER BY news_id desc LIMIT 30   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: title C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\PositionContentModel.class.php 第 16 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 1 ORDER BY listorder desc ,id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: title C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\PositionContentModel.class.php 第 16 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\BasicModel.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\BasicModel.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: id C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: flag C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined index: User C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 61 行.
+NOTIC: [8] Undefined index: catId C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 40 行.
+NOTIC: [8] Undefined index: catId C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [8] Undefined index: catId C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [8] Undefined index: catId C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [8] Undefined index: catId C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [8] Undefined index: catId C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Undefined index: keywords C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: count C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2019-05-27T01:06:35+08:00 ] ::1 /index.php/Home/User/verify/random/0.6536762958065812
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2019-05-27T01:06:36+08:00 ] ::1 /index.php/Home/User/verify/random/0.4814368005663504
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2019-05-27T01:06:38+08:00 ] ::1 /index.php/Home/User/verify/random/0.6554374910586659
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000959s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2019-05-27T01:06:39+08:00 ] ::1 /index.php/Home/User/verify/random/0.27001946959327683
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2019-05-27T01:06:40+08:00 ] ::1 /index.php/Home/User/verify/random/0.9067895456483877
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2019-05-27T01:06:42+08:00 ] ::1 /index.php/Home/User/verify/random/0.14496163228017223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001141s ]
+
+[ 2019-05-27T01:06:43+08:00 ] ::1 /index.php/Home/User/verify/random/0.07736775806708673
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2019-05-27T01:06:44+08:00 ] ::1 /index.php/Home/User/verify/random/0.2475162942990521
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000681s ]
+
+[ 2019-05-27T01:06:50+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.0284s ]
+SQL: SELECT * FROM `cms_users` WHERE `username` = 'beibei123' AND `status` <> -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `cms_users` (`username`,`password`,`status`) VALUES ('beibei123','54b81eeb505529d75b7ce3ae70a1b783','1') [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 3 for show(), called in C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php on line 113 and defined C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 6 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 10 行.
+
+[ 2019-05-27T01:07:08+08:00 ] ::1 /index.php/Home/User/verify/random/0.7138106953326427
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001115s ]
+
+[ 2019-05-27T01:07:10+08:00 ] ::1 /index.php/Home/User/verify/random/0.7096428644982303
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2019-05-27T01:07:16+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] Missing argument 3 for show(), called in C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php on line 102 and defined C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 6 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 10 行.
+
+[ 2019-05-27T01:11:39+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\PositionContentModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0331s ]
+NOTIC: [8] Undefined index: title C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\PositionContentModel.class.php 第 16 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2 ORDER BY listorder desc ,id desc LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\PositionContentModel.class.php 第 16 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 3 ORDER BY listorder desc ,id desc LIMIT 3   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\NewsModel.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0214s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 AND `thumb` <> '' ORDER BY news_id desc LIMIT 30   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\PositionContentModel.class.php 第 16 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 1 ORDER BY listorder desc ,id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\PositionContentModel.class.php 第 16 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\BasicModel.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\BasicModel.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: flag C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined index: User C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 61 行.
+NOTIC: [8] Undefined index: catId C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 40 行.
+NOTIC: [8] Undefined index: catId C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [8] Undefined index: catId C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [8] Undefined index: catId C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [8] Undefined index: catId C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [8] Undefined index: catId C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Undefined index: keywords C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: count C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2019-05-27T01:11:39+08:00 ] ::1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\NewsModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0283s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('22','23','21','20')  [ RunTime:0.0005s ]
+
+[ 2019-05-27T01:11:40+08:00 ] ::1 /index.php?c=user&a=reg&id=-2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\NewsModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0243s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\PositionContentModel.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0184s ]
+NOTIC: [8] Undefined index: title C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\PositionContentModel.class.php 第 16 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\BasicModel.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\BasicModel.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=-2 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: User C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000928s ]
+
+[ 2019-05-27T01:11:41+08:00 ] ::1 /index.php?m=Home&c=User&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003477s ]
+
+[ 2019-05-27T01:12:05+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] Missing argument 3 for show(), called in C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php on line 102 and defined C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 6 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 10 行.
+
+[ 2019-05-27T01:12:10+08:00 ] ::1 /index.php/Home/User/verify/random/0.11599204004876007
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000978s ]
+
+[ 2019-05-27T01:12:16+08:00 ] ::1 /index.php?c=user&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.0247s ]
+SQL: SELECT * FROM `cms_users` WHERE `username` = '1234233' AND `status` <> -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `cms_users` (`username`,`password`,`status`) VALUES ('1234233','dd888a6695a3c85893461fae4f88213b','1') [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 3 for show(), called in C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Home\Controller\UserController.class.php on line 113 and defined C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 6 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\PHPTutorial\WWW\tp3.2\Application\Common\Common\function.php 第 10 行.
+

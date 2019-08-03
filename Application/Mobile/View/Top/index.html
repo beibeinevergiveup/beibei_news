@@ -1,0 +1,30 @@
+<include file="Index/header" />
+<?php
+
+
+
+?>
+<div data-am-widget="list_news" class="am-list-news am-list-news-default">
+    <!--列表标题-->
+    <div class="am-list-news-bd">
+        <ul class="am-list">
+            <!--缩略图在标题右边-->
+            <volist name="news" id="vo">
+                <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-right">
+                    <div class=" am-u-sm-8 am-list-main">
+                        <h3 class="am-list-item-hd"><a href="/mobile.php?c=detail&id={$vo.news_id}"
+                                                       class="">{$vo.title}</a></h3>
+                        <div class="am-list-item-text">{$vo.description}</div>
+                    </div>
+
+                    <div class="am-u-sm-4 am-list-thumb">
+                        <a href="/mobile.php?c=detail&id={$vo.news_id}" class="">
+                            <img src="{$vo.thumb}" alt=""/>
+                        </a>
+                    </div>
+                </li>
+            </volist>
+        </ul>
+    </div>
+</div>
+<include file="Index/footer"/>

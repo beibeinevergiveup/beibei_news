@@ -1,0 +1,24 @@
+[ 2019-04-14T23:54:46+08:00 ] ::1 /tp3.2/tp3.2/admin.php?c=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+ERR: 无法加载模块:Tp3.2
+
+[ 2019-04-14T23:55:05+08:00 ] ::1 /tp3.2/tp3.2/admin.php?c=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+ERR: 无法加载模块:Tp3.2
+
+[ 2019-04-14T23:55:08+08:00 ] ::1 /tp3.2/tp3.2/admin.php?c=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+ERR: 无法加载模块:Tp3.2
+
+[ 2019-04-14T23:55:14+08:00 ] ::1 /tp3.2/tp3.2/admin.php?c=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+ERR: 无法加载模块:Tp3.2
+

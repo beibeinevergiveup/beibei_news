@@ -1,0 +1,111 @@
+
+<include file="Index/header" />
+<body>
+
+<div id="wrapper">
+
+    <include file="Index/nav"/>
+
+    <div id="page-wrapper">
+
+        <div class="container-fluid" >
+
+            <!-- Page Heading -->
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <ol class="breadcrumb">
+                        <li>
+                            <i class="fa fa-dashboard"></i>  <a href="/admin.php?c=menu">留言管理</a>
+                        </li>
+                        <li class="active">
+                            <i class="fa fa-table"></i>{$nav}
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <form action="/admin.php" method="get" class="form-inline">
+                    <div class="col-md-3">
+                        <input type="hidden" name="c" value="messagemanger"/>
+                        <input type="hidden" name="a" value="index"/>
+                        <div class="input-group">
+                            <input class="form-control" name="name" type="text" value="{$name}" placeholder="用户名搜索" />
+                            <span class="input-group-btn">
+                  <button id="sub_data" type="submit" class="btn btn-primary"><i class="glyphicon glyphicon-search"></i></button>
+                </span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            </div>
+            <div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3></h3>
+                    <div class="table-responsive">
+                        <form id="singcms-listorder">
+                            <table class="table table-bordered table-hover singcms-table">
+                                <thead>
+                                <tr>
+                                    <th>id</th>
+                                    <th>用户名</th>
+                                    <th>留言时间</th>
+                                    <th>状态</th>
+                                    <th>操作</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <volist name="res" id="message">
+                                    <tr>
+                                        <td>{$message.id}</td>
+                                        <td>{$message.user}</td>
+                                        <td>{$message.time|date="Y-m-d H:i",###}</td>
+                                        <td><span attr-status=<if condition="$message.status eq 1">0<else/>1</if>  attr-id="{$message.id}" class="sing_cursor singcms-on-off" id="singcms-on-off"  ><div style=<if condition="$message.status eq 0">"color: #d43f3a"</if>>{$message.status|messagestatus}</div></span></td>
+                                        <td><a href="index.php?c=message&a=detail&id={$message.id}"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>    <a href="javascript:void(0)" attr-id="{$message.id}" id="singcms-delete"  attr-a="menu" attr-message="删除"><span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span></a></td>
+                                    </tr>
+                                </volist>
+
+                                </tbody>
+                            </table>
+                        </form>
+                        <nav>
+                            <ul class="pagination">
+                                {$page}
+                            </ul>
+                        </nav>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /.row -->
+
+
+
+        </div>
+        <!-- /.container-fluid -->
+
+    </div>
+    <!-- /#page-wrapper -->
+
+</div>
+<!-- /#wrapper -->
+<!-- Morris Charts JavaScript -->
+<script>
+
+    var SCOPE = {
+        'set_status_url' : '/admin.php?c=messagemanger&a=setStatus',
+        'listorder_url' : '/admin.php?c=messagemanger&a=listorder',
+
+    }
+</script>
+<include file="Index/footer" />
+
+
+
+
+

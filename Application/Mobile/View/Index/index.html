@@ -1,0 +1,48 @@
+<include file="Index/header" />
+<div data-am-widget="slider" class="am-slider am-slider-default" data-am-slider='{}' >
+    <ul class="am-slides">
+        <volist name="toppicnews" id="vo">
+            <li>
+                <a href="/mobile.php?c=detail&id={$vo.news_id}"><img style="height: 179px; width: 100% " src="{$vo.thumb}"></a>
+
+            </li>
+        </volist>
+
+    </ul>
+</div>
+
+<div data-am-widget="list_news" class="am-list-news am-list-news-default" >
+    <!--列表标题-->
+    <div class="am-list-news-hd am-cf">
+        <!--带更多链接-->
+        <a class="">
+            <h2>主要新闻</h2>
+        </a>
+    </div>
+    <div class="am-list-news-bd">
+        <ul class="am-list">
+            <!--缩略图在标题右边-->
+            <volist name="news" id="vo">
+            <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-right">
+                <div class=" am-u-sm-8 am-list-main">
+                    <h3 class="am-list-item-hd"><a href="/mobile.php?c=detail&id={$vo.news_id}" class="">{$vo.title}</a></h3>
+                    <div class="am-list-item-text">{$vo.description}</div>
+                </div>
+
+            <div class="am-u-sm-4 am-list-thumb">
+           <a href="/mobile.php?c=detail&id={$vo.news_id}" class="">
+            <img src="{$vo.thumb}" alt=""/>
+           </a>
+         </div>
+            </li>
+            </volist>
+
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+<include file="Index/footer"/>

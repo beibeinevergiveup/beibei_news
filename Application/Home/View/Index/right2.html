@@ -1,0 +1,36 @@
+<!-- 右侧相关推荐-->
+<div>
+<div class="col-md-3 col-lg-3">
+    <div class="right-title">
+        <h3>相关新闻</h3>
+        <span>RELATED NEWS</span>
+    </div>
+    <div class="list-group">
+    <volist name="result['related']" id="vo">
+    <!--<div class="panel panel-default">-->
+        <!--<div class="panel-heading"><a target="_blank" href="/index.php?c=detail&id={$vo.news_id}"><h3>{$vo.small_title}</h3></a></div>-->
+        <!--<div class="panel-body">-->
+            <!--<h5>{$vo.description}</h5>-->
+        <!--</div>-->
+    <!--</div>-->
+        <a href="/index.php?c=detail&id={$vo.news_id}" class="list-group-item list-group-item-info">{$vo.small_title}</a>
+
+    </volist>
+    </div>
+    <div class="right-title">
+        <h4>广告推荐</h4>
+        <span>advantage</span>
+    </div>
+    <volist name="result['advNews']" id="vo" key="k">
+        <div class="thumbnail">
+            <a target="_blank" href="{$vo.url}"> <img src="{$vo.thumb}" alt="{$vo.title}">
+                <div class="caption">
+                    <h3 style="font-size: 20px">{$vo.title}</h3>
+                </div>
+            </a>
+        </div>
+    </volist>
+
+
+</div>
+</div>
